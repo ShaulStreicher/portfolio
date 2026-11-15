@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaul Streicher Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Felipa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="name-banner">
+            <h1 id="name">Shaul Streicher</h1>
+        </div>
+        <nav>
+            <ul>
+                <li id="nav-profile" class="nav-item">
+                    <a href="#profile"><span class="nav-name">Profile</span></a>
+                </li>
+                <li id="nav-projects" class="nav-item">
+                    <a href="#projects"><span class="nav-name">Projects</span></a>
+                </li>
+                <li id="nav-skill" class="nav-item">
+                    <a href="#skills"><span class="nav-name">Skills</span></a>
+                </li>
+                <li id="nav-contact" class="nav-item">
+                    <a href="#contact"><span class="nav-name">Contact</span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <div id="overflow">
+            <section id="profile">
+                <div class="icon">
+                    <img src="assets/img/icons/profile.svg" alt="">
+                </div>
+                <div class="details">
+                    <h2 class="detail-header">Profile</h2>
+                    <p>I’m Shaul, a developer in the making with a strong foundation in enterprise systems. As a Salesforce Support Specialist at Amalgamated Insurance Underwriters, I’ve spent my days solving real business problems, supporting users, and keeping critical CRM workflows running smoothly. That hands-on experience led my company to invite me into software development, and I’m now building toward a full-stack .NET role.</p>
+                </div>
+            </section>
+
+            <section id="projects">
+                <div class="icon">
+                    <img src="assets/img/icons/projects.svg" alt="">
+                </div>
+                <div class="details">
+                    <h2 class="detail-header">Projects</h2>
+                    <article>
+                        <h3>claude-memory</h3>
+                        <p>A searchable long-term memory for an AI coding assistant, shared across projects. Built in Node.js with a SQLite full-text search database, a command-line tool and an MCP server.</p>
+                    </article>
+                    <article>
+                        <h3>This portfolio</h3>
+                        <p>Hand-written HTML, CSS and JavaScript: a sticky header with tab navigation, and a name that splits itself into letters which light up in random colors on hover.</p>
+                    </article>
+                    <article>
+                        <h3>Landing pages</h3>
+                        <p>Responsive layouts built from design files: a Frontend Mentor grid landing page, a catering business site, a local shul website, and a broken photography site I debugged and repaired.</p>
+                    </article>
+                    <article>
+                        <h3>JS Message Generator</h3>
+                        <p>A small JavaScript program that combines random sentence parts into a new message on every run.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="skills">
+                <div class="icon">
+                    <img src="assets/img/icons/skills.svg" alt="">
+                </div>
+                <div class="details">
+                    <h2 class="detail-header">Skills</h2>
+                    <ul class="skill-list">
+                        <li>HTML</li>
+                        <li>CSS: Flexbox, Grid, positioning</li>
+                        <li>JavaScript &amp; the DOM</li>
+                        <li>Node.js</li>
+                        <li>Git</li>
+                        <li>Salesforce &amp; CRM support</li>
+                        <li>Learning: C# &amp; .NET</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="icon">
+                    <img src="assets/img/icons/contact.svg" alt="">
+                </div>
+                <div class="details">
+                    <h2 class="detail-header">Contact</h2>
+                    <p>Want to talk about a project or a role? Find my work on GitHub.</p>
+                    <p><a class="contact-link" href="https://github.com/ShaulStreicher">github.com/ShaulStreicher</a></p>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
